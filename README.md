@@ -14,6 +14,44 @@
 但是那个可隐藏的输入密码那里没用自定义控件，而是专门写了两个类来管理    
 ~~但是明明自定义控件就好了呀，当时人傻了~~    
 哦，对了，像网络连接呀、实现功能啊是专门写了对应的类去实现的
-比如Http管网络、RealizeAPI实现功能、TxtData管数据存储。。
-![register.gif](https://github.com/btazsq/WinterExamination/blob/master/gif/register.gif "注册界面")
-![password.gif](https://github.com/btazsq/WinterExamination/blob/master/gif/password.gif "密码")
+比如Http管网络、RealizeAPI实现功能、TxtData管数据存储。。    
+![register.gif](https://github.com/btazsq/WinterExamination/blob/master/gif/register.gif "注册界面")    
+![password.gif](https://github.com/btazsq/WinterExamination/blob/master/gif/password.gif "密码")    
+## 主要界面 ##
+主界面用的viewpager，实际上不用的话可以减少太多麻烦了。。    
+为了用代码改视觉之类的东西，把对象传来传去，留下了好多毛病    
+![main.gif](https://github.com/btazsq/WinterExamination/blob/master/gif/main.gif "惨痛的教训")   
+## 个人界面 ##
+这个头像好难加载   
+```
+    一开始写的方法   
+    /*
+    加载网络图片   
+     */
+    public static Bitmap getImageBitmap(String url){
+        Bitmap bitmap = null;
+        try {
+            HttpURLConnection connection = (HttpURLConnection)(new URL(url).openConnection());
+            connection.setRequestMethod("GET");
+            connection.setReadTimeout(8000);
+            connection.setConnectTimeout(8000);
+            connection.setDoInput(true);
+            connection.connect();
+            InputStream in = connection.getInputStream();
+            Log.d(TAG, "code:"+connection.getResponseCode());
+            bitmap = BitmapFactory.decodeStream(in);
+            in.close();
+            connection.disconnect();
+        } catch (Exception e) {
+            Log.d(TAG, "getImageBitmap: "+e.toString());
+        }
+        return bitmap;
+    }
+    线程是调用这个方法的时候开    
+```
+一开始图片死活加载不出来，然后我去网上下载加载网络图片的Demo   
+但网上的代码一样加载不出来
+我就纳闷了，*但是精彩的地方来了*，我偶然回到我的app，发现头像加载出来了   
+？！！   
+实验这么久，就成功了2次，太不稳定了，最后换成了Glide
+![person.gif](https://github.com/btazsq/WinterExamination/blob/master/gif/person.gif "个人界面")
