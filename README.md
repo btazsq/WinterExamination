@@ -4,7 +4,6 @@
 最初的规划和最后的成品有些相斥，用了各种方法调节，不过最后就是虽然做到了一些功能但是留下了一堆bug改不了了。。。
 一开始是想用MVP架构的，结果后面就不知道在干什么了
 ```
-![]( "")
 **那么，以下是介绍**   
 ## 开始界面 ##
 就是想做一个引导界面，这个一开始的界面~~(除了复用知乎日报作业的那几张图)~~是用PS处理得到的    
@@ -53,5 +52,17 @@
 但网上的代码一样加载不出来
 我就纳闷了，*但是精彩的地方来了*，我偶然回到我的app，发现头像加载出来了   
 ？！！   
-实验这么久，就成功了2次，太不稳定了，最后换成了Glide
+实验这么久，就成功了2次，太不稳定了，最后换成了Glide   
 ![person.gif](https://github.com/btazsq/WinterExamination/blob/master/gif/person.gif "个人界面")
+## 翻页 ##
+![page.gif](https://github.com/btazsq/WinterExamination/blob/master/gif/page.gif "翻页")
+## 点赞 ##
+点赞之类的不刷新数字   
+~~因为太多bug了，前期考虑不周到，导致后期不知道怎么改了~~   
+![holder.gif](https://github.com/btazsq/WinterExamination/blob/master/gif/holder.gif "再次点是取消")   
+## 评论 ##
+最后的最后，评论的recycleVIEW和浏览与收藏是一样的，但是接受不到评论列表   
+其实之前收藏列表也是空的，接收不到信息   
+我把app装到手机上，时不时看看，结果有一天就突然收到了。。   
+评论列表是一样的，只是没了收藏按钮，然后把点击view的事件改成了采纳   
+![back.gif](https://github.com/btazsq/WinterExamination/blob/master/gif/back.gif "我太难了")
