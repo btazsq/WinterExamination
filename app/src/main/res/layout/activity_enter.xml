@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MainView.EnterActivity"
+    tools:ignore="Orientation">
+
+    <com.example.winterexamination.Unit.TitleOne
+        android:id="@+id/enter_title"
+        android:layout_weight="0.05"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/enter_viewpager"
+        android:layout_weight="0.9"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/enter_tab"
+        android:layout_weight="0.05"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/myTitleColor"
+        app:tabIndicatorHeight="1dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/myTitleColor"
+        />
+
+</LinearLayout>

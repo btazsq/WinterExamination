@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="myTitleColor">#00CCDD</color>
+    <color name="prWhite">#FAFAFA</color>
+    <color name="myNull">#00000000</color>
+    <color name="myBlack">#000000</color>
+    <color name="mySmallNull">#0400CCDD</color>
+</resources>

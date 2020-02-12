@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <Button
+        android:id="@+id/title_2_back"
+        android:background="@color/mySmallNull"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="上一页"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/title_2_viewing"
+        android:background="@color/myNull"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/myTitleColor"
+        android:textSize="12dp"
+        />
+
+    <Button
+        android:id="@+id/title_2_ahead"
+        android:background="@color/mySmallNull"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="下一页"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/title_2_page"
+        android:background="@color/myNull"
+        android:layout_weight="0.25"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入跳转到的页码"
+        android:textSize="8dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+         />
+
+    <Button
+        android:id="@+id/title_2_jump"
+        android:background="@color/mySmallNull"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:text="跳转"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+</LinearLayout>
