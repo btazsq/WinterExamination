@@ -5,9 +5,9 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".View.MainView.SurfFragment">
+    tools:context=".view.mainView.SurfFragment">
 
-    <com.example.winterexamination.Unit.SurfBar
+    <com.example.winterexamination.unit.SurfBar
         android:id="@+id/surf_bar"
         android:layout_width="match_parent"
         android:layout_height="0dp"

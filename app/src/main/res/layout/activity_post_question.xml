@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".View.BranchView.Person.PostQuestion">
+    tools:context=".view.branchView.person.PostQuestion">
 
-    <com.example.winterexamination.Unit.TitleOne
+    <com.example.winterexamination.unit.TitleOne
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

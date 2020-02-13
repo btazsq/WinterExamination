@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/login_bg"
-    tools:context=".View.MainView.LoginActivity">
+    tools:context=".view.mainView.LoginActivity">
 
-    <com.example.winterexamination.Unit.TitleOne
+    <com.example.winterexamination.unit.TitleOne
         android:id="@+id/login_title_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -5,10 +5,10 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".View.MainView.EnterActivity"
+    tools:context=".view.mainView.EnterActivity"
     tools:ignore="Orientation">
 
-    <com.example.winterexamination.Unit.TitleOne
+    <com.example.winterexamination.unit.TitleOne
         android:id="@+id/enter_title"
         android:layout_weight="0.05"
         android:layout_width="match_parent"

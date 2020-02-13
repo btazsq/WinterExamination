@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".View.BranchView.Person.ChangeAvatar">
+    tools:context=".view.branchView.person.ChangeAvatar">
 
-    <com.example.winterexamination.Unit.TitleOne
+    <com.example.winterexamination.unit.TitleOne
         android:id="@+id/change_avatar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -2,15 +2,11 @@ package com.example.winterexamination;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
-import android.view.View;
-import android.widget.TextView;
 
-import com.example.winterexamination.View.MainView.LoginActivity;
+import com.example.winterexamination.view.mainView.LoginActivity;
 
 //http://bihu.jay86.com/
 
