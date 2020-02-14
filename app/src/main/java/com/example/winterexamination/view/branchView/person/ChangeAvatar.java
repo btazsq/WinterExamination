@@ -1,4 +1,4 @@
-package com.example.winterexamination.view.branchView.person;
+package com.example.winterexamination.View.BranchView.Person;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,16 +9,16 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.winterexamination.contract.TotalContract;
+import com.example.winterexamination.Contract.TotalContract;
 import com.example.winterexamination.MyApplication;
-import com.example.winterexamination.presenter.DataUp;
+import com.example.winterexamination.Presenter.DataUp;
 import com.example.winterexamination.R;
-import com.example.winterexamination.unit.TitleOne;
+import com.example.winterexamination.Unit.TitleOne;
 
 public class ChangeAvatar extends AppCompatActivity implements TotalContract.TotalView.DataUpView {
     private EditText editText;
     private Button button;
-    private TotalPresenter.DataUpPresenter dataUpPresenter;
+    private TotalContract.TotalPresenter.DataUpPresenter dataUpPresenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -16,45 +16,45 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".view.branchView.answer.Answer">
+        <activity android:name=".View.BranchView.Answer.Answer">
             <intent-filter>
                 <action android:name="com.example.winterexamination.POST_2" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.branchView.person.PostQuestion">
+        <activity android:name=".View.BranchView.Person.PostQuestion">
             <intent-filter>
                 <action android:name="com.example.winterexamination.POST_1" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.branchView.person.ChangePassword">
+        <activity android:name=".View.BranchView.Person.ChangePassword">
             <intent-filter>
                 <action android:name="com.example.winterexamination.CHPAS" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.branchView.person.ChangeAvatar">
+        <activity android:name=".View.BranchView.Person.ChangeAvatar">
             <intent-filter>
                 <action android:name="com.example.winterexamination.CHAVA" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.mainView.FavorFragment" />
-        <activity android:name=".view.mainView.SurfFragment" />
-        <activity android:name=".view.mainView.PensonFragment" />
-        <activity android:name=".view.mainView.EnterActivity" />
-        <activity android:name=".view.branchView.RegisterActivity" />
+<!--        <activity android:name=".View.MainView.FavorFragment" />-->
+<!--        <activity android:name=".View.MainView.SurfFragment" />-->
+<!--        <activity android:name=".View.MainView.PensonFragment" />-->
+        <activity android:name=".View.MainView.EnterActivity" />
+        <activity android:name=".View.BranchView.RegisterActivity" />
 
         <meta-data
             android:name="com.google.android.actions"
             android:resource="@drawable/style_edit_1" />
 
-        <activity android:name=".view.mainView.LoginActivity" />
+        <activity android:name=".View.MainView.LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

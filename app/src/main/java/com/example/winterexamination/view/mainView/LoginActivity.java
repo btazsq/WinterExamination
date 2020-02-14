@@ -1,4 +1,4 @@
-package com.example.winterexamination.view.mainView;
+package com.example.winterexamination.View.MainView;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,15 +12,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.winterexamination.contract.TotalContract;
+import com.example.winterexamination.Contract.TotalContract;
+import com.example.winterexamination.Model.TxtData;
 import com.example.winterexamination.MyApplication;
-import com.example.winterexamination.part.EditPassword;
-import com.example.winterexamination.presenter.EditPassPres;
-import com.example.winterexamination.presenter.StartPresent;
+import com.example.winterexamination.Part.EditPassword;
+import com.example.winterexamination.Presenter.EditPassPres;
+import com.example.winterexamination.Presenter.StartPresent;
 import com.example.winterexamination.R;
-import com.example.winterexamination.unit.TitleOne;
-import com.example.winterexamination.view.branchView.RegisterActivity;
-import com.example.winterexamination.model.TxtData;
+import com.example.winterexamination.Unit.TitleOne;
+import com.example.winterexamination.View.BranchView.RegisterActivity;
 
 import org.json.JSONObject;
 
@@ -92,7 +92,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     public void show(String mes, String take) {
         MyApplication application = (MyApplication)getApplication();
         application.setToken(take);
-        startActivity(new Intent(LoginActivity.this,EnterActivity.class));
+        startActivity(new Intent(LoginActivity.this, EnterActivity.class));
         //
         TxtData txtData = new TxtData("user",this);
         try {

@@ -1,4 +1,4 @@
-package com.example.winterexamination.view.branchView.person;
+package com.example.winterexamination.View.BranchView.Person;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

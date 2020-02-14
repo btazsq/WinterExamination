@@ -1,4 +1,4 @@
-package com.example.winterexamination.view.mainView;
+package com.example.winterexamination.View.MainView;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -17,9 +17,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.winterexamination.contract.TotalContract;
+
+import com.example.winterexamination.Contract.TotalContract;
 import com.example.winterexamination.MyApplication;
-import com.example.winterexamination.part.HolderData;
+
+import com.example.winterexamination.Part.HolderData;
 import com.example.winterexamination.R;
 import com.example.winterexamination.tools.RealizeAPI;
 

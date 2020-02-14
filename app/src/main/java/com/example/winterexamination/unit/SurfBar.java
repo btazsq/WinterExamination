@@ -1,4 +1,4 @@
-package com.example.winterexamination.unit;
+package com.example.winterexamination.Unit;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
-import com.example.winterexamination.contract.TotalContract;
+import com.example.winterexamination.Contract.TotalContract;
 import com.example.winterexamination.R;
 
 public class SurfBar extends LinearLayout implements TotalContract.Surf.SurfBar, View.OnClickListener {

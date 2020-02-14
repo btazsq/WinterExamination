@@ -1,11 +1,11 @@
-package com.example.winterexamination.model;
+package com.example.winterexamination.Model;
 
 import android.content.Context;
 import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.winterexamination.contract.TotalContract;
+import com.example.winterexamination.Contract.TotalContract;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

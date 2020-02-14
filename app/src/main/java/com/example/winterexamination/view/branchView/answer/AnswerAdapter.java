@@ -1,4 +1,4 @@
-package com.example.winterexamination.view.branchView.answer;
+package com.example.winterexamination.View.BranchView.Answer;
 
 import android.annotation.SuppressLint;
 import android.os.Handler;
@@ -16,12 +16,14 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.winterexamination.part.HolderData;
+
+import com.example.winterexamination.Part.HolderData;
 import com.example.winterexamination.R;
 import com.example.winterexamination.tools.RealizeAPI;
 
 import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
 
 public class AnswerAdapter extends RecyclerView.Adapter<AnswerAdapter.AnswerHolder> {
     private static final String TAG = "*****AnswerAdapter*****";
@@ -76,9 +78,13 @@ public class AnswerAdapter extends RecyclerView.Adapter<AnswerAdapter.AnswerHold
     @Override
     public void onBindViewHolder(@NonNull AnswerHolder holder, int position) {
         try {
-            holder.holderData = new HolderData(jsonArray.getJSONObject(position));
+            JSONObject jsonObject = jsonArray.getJSONObject(position);
+            holder.holderData = new HolderData(jsonObject);
+            if (holder.holderData.avatar!=null)
             Glide.with(holder.view).load(holder.holderData.avatar).into(holder.avatar);
+            if (holder.holderData.image!=null)
             Glide.with(holder.view).load(holder.holderData.image).into(holder.image);
+            if (holder.holderData.name!=null)
             holder.name.setText(holder.holderData.name);
             holder.title.setText(holder.holderData.title);
             holder.content.setText(holder.holderData.content);
@@ -156,7 +162,6 @@ public class AnswerAdapter extends RecyclerView.Adapter<AnswerAdapter.AnswerHold
                     }).start();
                 }
             });
-
         } catch (Exception e) {
             Log.d(TAG, "onBindViewHolder: "+ e.toString());
         }

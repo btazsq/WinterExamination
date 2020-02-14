@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.example.winterexamination.view.mainView.LoginActivity;
+import com.example.winterexamination.View.MainView.LoginActivity;
 
 //http://bihu.jay86.com/
 

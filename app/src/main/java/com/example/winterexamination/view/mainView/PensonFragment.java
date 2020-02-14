@@ -1,4 +1,4 @@
-package com.example.winterexamination.view.mainView;
+package com.example.winterexamination.View.MainView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

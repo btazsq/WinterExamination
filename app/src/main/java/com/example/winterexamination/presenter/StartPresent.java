@@ -1,4 +1,4 @@
-package com.example.winterexamination.presenter;
+package com.example.winterexamination.Presenter;
 
 import android.annotation.SuppressLint;
 import android.os.Handler;
@@ -6,7 +6,7 @@ import android.os.Message;
 import android.util.Log;
 import android.widget.EditText;
 
-import com.example.winterexamination.contract.TotalContract;
+import com.example.winterexamination.Contract.TotalContract;
 import com.example.winterexamination.MyApplication;
 import com.example.winterexamination.tools.Http;
 

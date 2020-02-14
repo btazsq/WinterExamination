@@ -1,11 +1,11 @@
-package com.example.winterexamination.contract;
+package com.example.winterexamination.Contract;
 
 import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.winterexamination.view.mainView.SurfAdapter;
+import com.example.winterexamination.View.MainView.SurfAdapter;
 
 import java.util.List;
 

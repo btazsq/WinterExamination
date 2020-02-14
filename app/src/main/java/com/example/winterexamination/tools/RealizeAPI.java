@@ -173,7 +173,7 @@ public class RealizeAPI {
     public JSONObject getQuestionList(int page,int count)throws Exception{
         HttpURLConnection connection = Http.getHttpConnection("http://bihu.jay86.com/getQuestionList.php");
         connection.connect();
-        Http.postData(connection,token+"page="+page+"&count="+count);
+        Http.postData(connection,token+"page="+(page-1)+"&count="+count);
         String back = Http.getResponse(connection);
         Log.d(TAG, "getQuestionList: "+back);
         return new JSONObject(back);
@@ -182,7 +182,7 @@ public class RealizeAPI {
     public JSONObject getAnswerList(int page,int count,int qid)throws Exception{
         HttpURLConnection connection = Http.getHttpConnection("http://bihu.jay86.com/getAnswerList.php");
         connection.connect();
-        Http.postData(connection,token+"page="+page+"&count="+count+"&qid="+qid);
+        Http.postData(connection,token+"page="+(page-1)+"&count="+count+"&qid="+qid);
         String back = Http.getResponse(connection);
         Log.d(TAG, "getAnswerList: "+back);
         return new JSONObject(back);
@@ -191,7 +191,7 @@ public class RealizeAPI {
     public JSONObject getFavoriteList(int page,int count)throws Exception{
         HttpURLConnection connection = Http.getHttpConnection("http://bihu.jay86.com/getFavoriteList.php");
         connection.connect();
-        Http.postData(connection,token+"page="+page+"&count="+count);
+        Http.postData(connection,token+"page="+(page-1)+"&count="+count);
         String back = Http.getResponse(connection);
         Log.d(TAG, "getFavoriteList: "+back);
         return new JSONObject(back);

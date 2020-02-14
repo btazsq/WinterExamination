@@ -1,4 +1,4 @@
-package com.example.winterexamination.view.mainView;
+package com.example.winterexamination.View.MainView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -15,7 +15,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.winterexamination.contract.TotalContract;
+import com.example.winterexamination.Contract.TotalContract;
 import com.example.winterexamination.MyApplication;
 import com.example.winterexamination.R;
 import com.example.winterexamination.tools.MyException;

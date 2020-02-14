@@ -5,9 +5,9 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.mainView.FavorFragment">
+    tools:context=".View.MainView.FavorFragment">
 
-    <com.example.winterexamination.unit.SurfBar
+    <com.example.winterexamination.Unit.SurfBar
         android:id="@+id/favor_bar"
         android:layout_width="match_parent"
         android:layout_height="0dp"

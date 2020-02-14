@@ -1,4 +1,4 @@
-package com.example.winterexamination.view.mainView;
+package com.example.winterexamination.View.MainView;
 
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -9,7 +9,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.example.winterexamination.MyApplication;
 import com.example.winterexamination.R;
-import com.example.winterexamination.unit.TitleOne;
+import com.example.winterexamination.Unit.TitleOne;
 import com.example.winterexamination.tools.RealizeAPI;
 import com.google.android.material.tabs.TabLayout;
 

@@ -1,9 +1,9 @@
-package com.example.winterexamination.presenter;
+package com.example.winterexamination.Presenter;
 
 import android.view.View;
 
-import com.example.winterexamination.contract.TotalContract;
-import com.example.winterexamination.part.EditPassword;
+import com.example.winterexamination.Contract.TotalContract;
+import com.example.winterexamination.Part.EditPassword;
 
 public class EditPassPres implements TotalContract.TotalPresenter.EditPres {
     EditPassword editPassword;

@@ -1,9 +1,9 @@
-package com.example.winterexamination.part;
+package com.example.winterexamination.Part;
 
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.example.winterexamination.contract.TotalContract;
+import com.example.winterexamination.Contract.TotalContract;
 import com.example.winterexamination.R;
 
 public class EditPassword implements TotalContract.TotalView.EditPass {

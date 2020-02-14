@@ -1,4 +1,4 @@
-package com.example.winterexamination.view.branchView;
+package com.example.winterexamination.View.BranchView;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,13 +9,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.winterexamination.contract.TotalContract;
-import com.example.winterexamination.part.EditPassword;
-import com.example.winterexamination.presenter.EditPassPres;
-import com.example.winterexamination.presenter.StartPresent;
+import com.example.winterexamination.Contract.TotalContract;
+import com.example.winterexamination.Model.TxtData;
+import com.example.winterexamination.Part.EditPassword;
+import com.example.winterexamination.Presenter.EditPassPres;
+import com.example.winterexamination.Presenter.StartPresent;
 import com.example.winterexamination.R;
-import com.example.winterexamination.unit.TitleOne;
-import com.example.winterexamination.model.TxtData;
+import com.example.winterexamination.Unit.TitleOne;
 
 public class RegisterActivity extends AppCompatActivity implements TotalContract.TotalView.StartView {
     EditPassword editPassword[]=new EditPassword[2];
