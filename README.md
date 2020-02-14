@@ -67,5 +67,5 @@ apk:https://github.com/btazsq/WinterExamination/blob/master/app-release.apk
 我把app装到手机上，时不时看看，结果有一天就突然收到了。。   
 评论列表是一样的，只是没了收藏按钮，然后把点击view的事件改成了采纳   
 ![back.gif](https://github.com/btazsq/WinterExamination/blob/master/gif/back.gif "我太难了")   
-~~原来是因为page从0开始。。~~
+~~原来是因为page从0开始。。~~   
 ![anw.gif](https://github.com/btazsq/WinterExamination/blob/master/gif/anw.gif "我太难了")
